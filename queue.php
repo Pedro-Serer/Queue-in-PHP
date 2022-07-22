@@ -10,7 +10,7 @@
         private $limite;
         private $fila;
 
-        public function __construct(int $limite = 20) 
+        public function __construct(int $limite = 25) 
         {
             $this->limite = $limite;
             $this->fila = [];
